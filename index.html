@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+  </head>
+  <body>
+    <app-bar
+      title="📝 Catatan Harian"
+      gradient="linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)"
+    ></app-bar>
+    <main>
+      <input-note></input-note>
+      <div class="Perlu dikerjakan">
+        <h2>List Catatan</h2>
+        <section id="notes-list"></section>
+      </div>
+
+      <div class="Arsip">
+        <h2>Arsip Catatan</h2>
+        <section id="notes-list"></section>
+      </div>
+
+      <note-modal id="note-modal" class="hidden"></note-modal>
+      <loading-indicator id="loading-indicator"></loading-indicator>
+    </main>
+    <footer-bar
+      footer="© 2024 Copyright • Made by Rimoon"
+      gradient="linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)"
+    ></footer-bar>
+  </body>
+</html>
